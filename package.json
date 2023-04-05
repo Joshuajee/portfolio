@@ -1,0 +1,37 @@
+{
+  "name": "jee-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "cracoConfig": "craco.config.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "cypress": "cypress open",
+    "test": "jest --watch",
+    "test1": "NODE_OPTIONS=--experimental-vm-modules jest --ci --silent"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "hamburger-react": "^2.5.0",
+    "next": "12.3.1",
+    "next-react-svg": "^1.2.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.7.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@types/react": "18.0.32",
+    "autoprefixer": "^10.4.14",
+    "babel-jest": "^29.5.0",
+    "jest": "^29.3.1",
+    "jest-environment-jsdom": "^29.3.1",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.1",
+    "ts-jest": "^29.1.0",
+    "typescript": "5.0.3"
+  }
+}
